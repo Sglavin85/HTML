@@ -5,6 +5,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: block;
+    margin: 0;
+}
+
 button {
     padding: 16px;
     font-size: 16px;
@@ -61,4 +71,32 @@ button {
 
 .drop2:hover .drop2down {
     display: block;
+    
+}
+
+.parallax {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Jim_Cooper%2C_Official_Portrait%2C_ca2013.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.parallax_ltext {
+    display: flex;
+    margin: -200px;
+    z-index: 1000;
+    justify-content: center;
+}
+
+.jim {
+    background-color: rgba(71, 81, 92, 0.589);
+    color: white;
+    position: relative;
+    top: 750px;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+
 }
